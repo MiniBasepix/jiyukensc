@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Red+Hat+Mono:ital,wght@0,300;0,400;1,300;1,400&family=Zen+Kaku+Gothic+New:wght@300;400&family=Zen+Old+Mincho&display=swap');
+/* 
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-family: 'Zen Old Mincho', serif; 
+*/
+
+html,body {
+    font-family: 'Zen Old Mincho';
+    font-weight: 500;
+    color: #252525;
+    letter-spacing: 0.1em;
+}
+
+a {
+    color: #010101;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #6e6e6e;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: 300;
+    border-bottom: 1.5px solid #222;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.title {
+    font-family: Herr Von Muellerhoff;
+}
+
+pre {
+    font-family: 'Red Hat Mono'
+}
